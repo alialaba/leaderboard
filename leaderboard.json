@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Emmanuel",
+        "age": "54",
+        "gender": "Male",
+        "language": "Javascript",
+        "points": "18"
+    },
+    {
+        "name": "Romeo",
+        "age": "59",
+        "gender": "Male",
+        "language": "Php",
+        "points": "15"
+    },
+    {
+        "name": "Stchawenzy",
+        "age": "19",
+        "gender": "Male",
+        "language": "Nodejs",
+        "points": "13"
+    },
+    {
+        "name": "Elihjawale",
+        "age": "34",
+        "gender": "Male",
+        "language": "Ruby",
+        "points": "11"
+    },
+    {
+        "name": "Eminence",
+        "age": "52",
+        "gender": "Male",
+        "language": "Jquery",
+        "points": "9"
+    },
+    {
+        "name": "Mimi",
+        "age": "13",
+        "gender": "Female",
+        "language": "Nodejs",
+        "points": "9"
+    },
+    {
+        "name": "Adeyemi",
+        "age": "25",
+        "gender": "Male",
+        "language": "C++",
+        "points": "7"
+    },
+    {
+        "name": "Ife",
+        "age": "37",
+        "gender": "Female",
+        "language": "Php",
+        "points": "5"
+    },
+    {
+        "name": "Bob",
+        "age": "12",
+        "gender": "Male",
+        "language": "C#",
+        "points": "3"
+    }
+]
