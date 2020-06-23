@@ -11,11 +11,16 @@ body{
 
 }
 
-h1, 
-#font {
+h1 {
     margin: 0 0 15px 0;
     font-size: 28px;
 }
+
+#font {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+}
+
 
 .points{
     display: flex;
