@@ -15,12 +15,11 @@ body{
 
 
 
-@media (min-width: 800px){
-	.row{
-		display: flex;
-		justify-content: space-between;
-	}
-	.sidebar{
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+.sidebar{
 	background-color: #25254e;
 	width: 15%;
 	height: 120vh;
