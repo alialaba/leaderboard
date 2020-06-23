@@ -11,6 +11,11 @@ body{
 
 }
 
+.heading{
+    margin: 15px;
+    font-size: 15px;
+}
+
 .points{
     display: flex;
     flex-direction: column;
