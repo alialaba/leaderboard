@@ -11,10 +11,10 @@ body{
 
 }
 
-.heading, 
+h1, 
 #font {
     margin: 0 0 15px 0;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .points{
