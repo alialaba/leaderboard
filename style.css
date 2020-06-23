@@ -1,87 +1,125 @@
-*,*::before ::after{
-	box-sizing: border-box;
-}
 body{
-	zoom: 90%;
-	zoom: 0.9;
-	-moz-transform: scale(0.9, 0.9);
-	margin: 0;
-	font-family: 'roboto',sans-serif;
-}
-.container{
-	width: 100%;
-	max-width: 1200%;
-	margin: 0 auto;
+    box-sizing: border-box;
 }
 
+.wrapper{
+    
 
-
-
-
-.row{
-	display: flex;
-	justify-content: space-between;
-}
-.sidebar{
-	background-color: #25254e;
-	width: 15%;
-	height: 120vh;
-	padding: 1em ;
-}
-.primary-content{
-	width: 79%;
-	padding-left: 2em;
-}
-
-#profile{
-	padding: 2rem 2.5rem;
-	background:#fff ;
-	color: black;
-	box-shadow: 0 1px 1px 1px rgb(0, 0, 0,0.1)
-	
-
-}
-.box{
-	background: #824936;
-	padding-bottom: 2em;
-	border-radius: 30px;
-}
-.box-title{
-	font-size: 1.3rem;
-	 text-align: center; 
-	 display: flex; 
-	 justify-content: center;
-	 color: #fff;
-}
-
-.col + .col{
-	margin-left: 2em;
-}
-.circle a{
-	text-decoration: none;
-	height: 50px;
-	width: 50px;
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: #2e323f;
-	border-radius: 50%;
-	font-size: 1.7rem;
-
-}
-.circle-two a{
-	text-decoration: none;
-	height: 30px;
-	width: 30px;
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: black;
-	border-radius: 50%;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
 
 }
 
+.points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #984447;
+    border-radius: 0px 0px 20px 20px;
+}
 
+.img img{
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+}
+.img, track, .email, .username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.track{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avator img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.outer-container{
+    display: flex;
+    align-items: center;
+}
+.list{
+    border-bottom: 1px solid #C4C4C4;
+    
+}
+
+.slackname, .person-email, .person-points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person-track{
+    color: #F42674;
+}
+
+.person-name, .person-points{
+    font-weight: bold;
+    color: #4F4646;
+}
+.intern{
+    color: #8E8E8E;
+    font-family: Roboto;
+    
+}
+.points h1{
+    font-weight: bold;
+}
+.heading h1{
+    color:  #00C2FF;
+    font-family: Roboto;
+}
+#span{
+    color: #8E8E8E;
+}
+.profile-avator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    background: #04194F;
+    color: white;
+    font-weight: bold;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.track h5{
+    color: #F42674;
+}
+#font{
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    color: black;
+}
+.fa{
+    color: #F42674;
+}
+#intern{
+    display: flex;
+    justify-content: space-between;
+}
+.show h5{
+    font-weight: bold;
+}
+.name h2{
+    font-family: Karla;
+    color: #4F4646;
 }
