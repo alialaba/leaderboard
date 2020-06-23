@@ -99,6 +99,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    
 }
 .track h5{
     color: #F42674;
@@ -123,3 +124,41 @@ body{
     font-family: Karla;
     color: #4F4646;
 }
+
+@media (min-width: 800px){
+	body{
+        
+    }
+    .main{
+        padding: 5px 5px 5px 5px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+      
+    }
+    .wrapper{
+        margin-top:20px;
+    }
+    .head{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #intern{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .outer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+  }
+
+  
