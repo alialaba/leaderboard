@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 }
 body{
+	zoom: 100%;
+	zoom: 1;
+	-moz-transform: scale(1, 1);
 	margin: 0;
 	font-family: 'roboto',sans-serif;
 }
